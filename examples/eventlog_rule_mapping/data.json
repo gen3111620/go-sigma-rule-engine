@@ -1,0 +1,11 @@
+[{
+"EventID": "4",
+"CommandLine" : "powershell.exe -ExecutionPolicy Bypass -C wmic.exe group get name",
+"OriginalFileName": "wmic.exe"
+},
+{
+    "EventID": "4",
+    "CommandLine" : "powershell.exe -ExecutionPolicy Bypass -C wmic.exe group get name",
+    "OriginalFileName": "wmic.exe"
+}
+]
