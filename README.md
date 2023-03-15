@@ -1,4 +1,27 @@
 # go-sigma-rule-engine
+### this repo fork on [markuskont/go-sigma-rule-engine](https://github.com/markuskont/go-sigma-rule-engine)
+
+add some example for mapping sigma rule
+
+## sample data you can find it in examples folder
+```json
+[{
+"EventID": "4",
+"CommandLine" : "powershell.exe -ExecutionPolicy Bypass -C wmic.exe group get name",
+"OriginalFileName": "wmic.exe"
+},
+{
+    "EventID": "4",
+    "CommandLine" : "powershell.exe -ExecutionPolicy Bypass -C wmic.exe group get name",
+    "OriginalFileName": "wmic.exe"
+}
+]
+```
+
+## mapping results output:
+![image](https://user-images.githubusercontent.com/31429532/225196563-0542f498-716b-492b-9cde-4a0fae592506.png)
+
+
 
 > Golang library that implements a sigma log rule parser and match engine.
 
